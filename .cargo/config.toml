@@ -1,0 +1,5 @@
+[build]
+# rustc-wrapper = "/home/nur/.cargo/bin/sccache"
+
+[registries.crates-io]
+protocol = "sparse"
