@@ -1,0 +1,264 @@
+{
+  "editor.formatOnSave": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "phase",
+  "editor.snippetSuggestions": "bottom",
+  "editor.suggest.preview": true,
+  "editor.semanticHighlighting.enabled": "configuredByTheme",
+  "editor.semanticTokenColorCustomizations": {
+    "[Just Black]": {
+      "enabled": true,
+      "rules": {
+        "operator": {
+          "fontStyle": "",
+          "foreground": "#fff"
+        },
+        "variable": {
+          "fontStyle": "",
+          "foreground": "#eee"
+        },
+        "constParameter": {
+          "fontStyle": "",
+          "foreground": "#eee"
+        },
+        "parameter": {
+          "fontStyle": "",
+          "foreground": "#eee"
+        },
+        "function": {
+          "fontStyle": "",
+          "foreground": "#8f0"
+        },
+        "method": {
+          "fontStyle": "",
+          "foreground": "#8f0"
+        },
+        "variable.callable": {
+          "fontStyle": "",
+          "foreground": "#8f0"
+        },
+        "parameter.callable": {
+          "fontStyle": "",
+          "foreground": "#8f0"
+        },
+        "property": {
+          "fontStyle": "",
+          "foreground": "#b7f"
+        },
+        "boolean": {
+          "fontStyle": "",
+          "foreground": "#ff0"
+        },
+        "number": {
+          "fontStyle": "",
+          "foreground": "#ff0"
+        },
+        "builtinType": {
+          "fontStyle": "",
+          "foreground": "#ff0"
+        },
+        "comment": {
+          "fontStyle": "",
+          "foreground": "#666"
+        },
+        "interface": {
+          "fontStyle": "",
+          "foreground": "#f07"
+        },
+        "typeParameter": {
+          "fontStyle": "",
+          "foreground": "#f07"
+        },
+        "enum": {
+          "fontStyle": "",
+          "foreground": "#0ff"
+        },
+        "enumMember": {
+          "fontStyle": "",
+          "foreground": "#0ff"
+        },
+        "type": {
+          "fontStyle": "",
+          "foreground": "#f07"
+        },
+        "struct": {
+          "fontStyle": "",
+          "foreground": "#f70"
+        },
+        "selfKeyword": {
+          "fontStyle": "",
+          "foreground": "#f70"
+        },
+        "selfTypeKeyword": {
+          "fontStyle": "",
+          "foreground": "#f70"
+        },
+        "typeAlias": {
+          "fontStyle": "",
+          "foreground": "#f70"
+        },
+        "keyword": {
+          "fontStyle": "",
+          "foreground": "#08f"
+        },
+        "keyword.async.controlFlow": {
+          "fontStyle": "",
+          "foreground": "#08f"
+        },
+        "keyword.controlFlow": {
+          "fontStyle": "",
+          "foreground": "#08f"
+        },
+        "namespace": {
+          "fontStyle": "",
+          "foreground": "#f0f"
+        },
+        "derive": {
+          "fontStyle": "",
+          "foreground": "#0f8" // c0f
+        },
+        "macro": {
+          "fontStyle": "",
+          "foreground": "#88ff00"
+        },
+        "string": {
+          "fontStyle": "",
+          "foreground": "#f88"
+        },
+        "keyword.unsafe": {
+          "fontStyle": "",
+          "foreground": "#f00"
+        },
+        "decorator": {
+          "fontStyle": "",
+          "foreground": "#777"
+        }
+      }
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Just Black]": {
+      "types": "#f70",
+      "numbers": "#ff0",
+      "comments": "#666",
+      "strings": "#f88",
+      "variables": "#fff",
+      "keywords": "#08f",
+      "functions": "#7f0",
+      "textMateRules": [
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "foreground": "#88ff00",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "keyword.other.fn.rust",
+          "settings": {
+            "foreground": "#0077FF",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "entity.name.namespace",
+          "settings": {
+            "foreground": "#ff00ff",
+            "fontStyle": ""
+          }
+        },
+        {
+          "scope": "string.quoted.double",
+          "settings": {
+            "foreground": "#ff8888",
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+  },
+  "workbench.sash.hoverDelay": 0,
+  "workbench.sash.size": 1,
+  "workbench.colorCustomizations": {
+    "[Just Black]": {
+      "editorLineNumber.foreground": "#333",
+      "editorLineNumber.activeForeground": "#777",
+      "menu.separatorBackground": "#444",
+      "badge.foreground": "#fff",
+      "badge.background": "#333",
+      "toolbar.hoverBackground": "#444",
+      "toolbar.activeBackground": "#000",
+      "editorWidget.background": "#0f111a",
+      "editorWidget.border": "#111",
+      "editorSuggestWidget.border": "#111",
+      "editorSuggestWidget.background": "#0b0b0b",
+      "editorHoverWidget.highlightForeground": "#fff",
+      "editorInlayHint.background": "#000",
+      "editorInlayHint.typeBackground": "#000",
+      "editorInlayHint.parameterBackground": "#000",
+      "editorInlayHint.foreground": "#777",
+      "editorInlayHint.typeForeground": "#777",
+      "editorInlayHint.parameterForeground": "#777",
+      "terminal.findMatchBackground": "#077",
+      "terminal.findMatchHighlightBackground": "#306",
+    }
+  },
+  /* files */
+  "files.autoSave": "onFocusChange",
+  /* git */
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  /* terminal */
+  "terminal.integrated.gpuAcceleration": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info",
+    "hint"
+  ],
+  "errorLens.fontSize": "13",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "Cargo.toml": "Cargo.lock"
+  },
+  "editor.guides.bracketPairs": "active",
+  "editor.inlayHints.fontSize": 12,
+  "debug.allowBreakpointsEverywhere": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.inlayHints.enabled": "on",
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.profiles.linux": {
+    "NU": {
+      "path": "nu",
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "NU",
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.colorTheme": "Just Black",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "diffEditor.diffAlgorithm": "advanced",
+  "rust-analyzer.completion.snippets.custom": {
+    "PrintLn": {
+      "postfix": "print",
+      "body": [
+        "println!(\"{:?}\", ${receiver});",
+        "$2"
+      ],
+      "description": "Log output to console",
+      "scope": "expr"
+    }
+  },
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.semanticHighlighting.doc.comment.inject.enable": false,
+}
